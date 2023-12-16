@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "qa-guru-8-18"
+version = "0.1.0"
+description = "homework_8.18"
+authors = ["maria.m <maryqatest9@gmail.com>"]
+readme = "README.md"
+packages = [{include = "qa_guru_8"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selene = "2.0.0rc4"
+pytest = "7.4.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
